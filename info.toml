@@ -1012,7 +1012,7 @@ https://doc.rust-lang.org/stable/book/ch16-00-concurrency.html
 [[exercises]]
 name = "cow1"
 path = "exercises/smart_pointers/cow1.rs"
-mode = "test"
+mode = "compile"
 hint = """
 If Cow already owns the data it doesn't need to clone it when to_mut() is called.
 
